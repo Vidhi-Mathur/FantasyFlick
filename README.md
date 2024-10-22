@@ -56,7 +56,7 @@ One of the major challenges I faced was passing team data between components. If
     ```    
 4. Start the frontend server
     ```bash
-   npm start
+   npm run dev
     ```
 
 ## Usage
