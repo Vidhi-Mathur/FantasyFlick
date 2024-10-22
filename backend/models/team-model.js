@@ -8,12 +8,12 @@ const team = new schema({
     },
     teamName: {
         type: 'String',
+        unique: true,
         required: true
     },
     players: [{
         type: "String",
-        default: null,
-        max: 11
+        default: null
     }],
     teamPoints: {
         type: 'Number',
